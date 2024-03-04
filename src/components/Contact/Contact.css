@@ -1,0 +1,58 @@
+p{
+    color: black;
+}
+
+.cards-container{
+    padding: 10px;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 350px;
+    gap: 13px;
+    border: none ;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 5px 15px black, -3px -3px 15px black;
+    animation: enter .5s ease 0s 1 normal forwards;
+}
+
+.contact-container span{
+    display: flex;
+    background: linear-gradient(151deg, #ffffff 53%, #F0932C 100%);
+    width: 80%;
+    height: 35px;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow:-3px -3px 15px #F0932C;
+}
+
+.fa-user, .fa-at, .fa-house, .fa-phone {
+    color: #F0932C;
+}
+
+.visible-on{
+    display:block
+}
+
+.visible-off{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container{
+        animation: enter2 .5s ease 0s 1 normal forwards;
+}
+}
+@media screen and (max-width: 391px) {
+    
+    .contact-container{
+        width: 320px;
+    }
+}

@@ -1,0 +1,48 @@
+.contactos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.list-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 410px;
+    height: 205px;
+    gap: 10px;
+    padding: 20px;
+    background-color:white;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 5px 5px 15px black, -3px -3px 15px black;
+}
+
+@media screen and (max-width: 768px) {
+
+    .contactos{
+        flex-direction: column;
+    }
+    
+    
+}
+
+@media screen and (max-width: 391px) {
+    
+    .list-box{
+        width: 300px;
+    }
+    
+
+}

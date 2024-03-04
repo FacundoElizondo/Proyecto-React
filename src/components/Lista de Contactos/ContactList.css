@@ -1,0 +1,33 @@
+.contact-card {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(143deg, #ffffff 36%, #F0932C 100%);
+    list-style: none;
+    box-shadow: 5px 5px 15px black,
+        -3px -3px 15px black;
+    animation: contact .5s ease 0s 1 normal forwards;
+
+}
+
+.contact-card span {
+    text-align: center;
+    cursor: pointer;
+}
+
+.contact-card span:hover{
+    font-weight: bolder;
+}
+
+.fa-trash {
+    color: red;
+    cursor: pointer;
+}
+
+.fa-trash:hover {
+    opacity: 0.6;
+}
